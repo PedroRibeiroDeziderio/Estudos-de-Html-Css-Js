@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <div id="caixaPrincipal">
+
+        <label for="nome" class="labels">Nome Completo</label><br>
+        <input type="text" id="nomeCompleto" class="camposDeEscrita" placeholder="Digite seu nome completo"><br>
+        
+        <label for="email" class="labels">E-mail</label><br>
+        <input type="email" id="email" class="camposDeEscrita"placeholder="Digite seu e-mail"><br>
+
+        <label for="senha" class="labels">Crie uma senha:</label><br>
+        <input type="password" id="senha" class="camposDeEscrita" placeholder="Crie sua senha"><br>
+
+        <button id="botaoEnviar" onclick="validarFormulario()">Validar</button>
+
+    </div>
+
+    <script src="js/script_validação.js" defer></script>
+</body>
+</html>
