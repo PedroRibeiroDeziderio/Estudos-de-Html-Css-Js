@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #dcdcdc;
+}
+
+#prato_1 {
+    width: 900px;
+    background-color: #ff2c2c;
+
+    display: flex;
+    align-items: center;
+
+    border-radius: 10px;
+    padding: 20px;
+    gap: 25px;
+}
+
+#img_1 {
+    width: 300px;
+    height: 200px;
+
+    transition: 0.5s;
+}
+
+#informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#titulo_prato {
+    margin: 0;
+    margin-bottom: 15px;
+
+    color: white;
+}
+
+#Texto1 {
+    margin: 0;
+
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+}
