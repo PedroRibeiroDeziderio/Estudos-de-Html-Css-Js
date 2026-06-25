@@ -1,6 +1,6 @@
 const img = document.querySelector("#img_1");
 
-img.addEventListener("mouseenter", function() {
+img.addEventListener("mouseenter" || "touchenter", function() {
 
     img.style.width = "400px";
     img.style.height = "300px";
